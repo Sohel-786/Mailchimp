@@ -1,0 +1,153 @@
+* {
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    line-height: 1.35;
+    color: #403b3b;
+    font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+}
+
+.home_top {
+    background-color: #241c15;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+@font-face {
+    font-family: Means Web;
+    src: url(/release/plums/cxp/fonts/Means-Light-Web.7121f5d6.1.woff2) format("woff"),url(/release/plums/cxp/fonts/Means-Light-Web.7b66930b.1.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: Means Web;
+    src: url(/release/plums/cxp/fonts/Means-LightItalic-Web.d23096b9.1.woff2) format("woff"),url(/release/plums/cxp/fonts/Means-LightItalic-Web.e4b7d57d.1.woff) format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: Means Web;
+    src: url(/release/plums/cxp/fonts/Means-Regular-Web.c14e83d3.1.woff2) format("woff"),url(/release/plums/cxp/fonts/Means-Regular-Web.19503511.1.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: Means Web;
+    src: url(/release/plums/cxp/fonts/Means-RegularItalic-Web.6fb4c9c3.1.woff2) format("woff"),url(/release/plums/cxp/fonts/Means-RegularItalic-Web.5c0ff13e.1.woff) format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: Means Web;
+    src: url(/release/plums/cxp/fonts/Means-Medium-Web.a76a7592.1.woff2) format("woff"),url(/release/plums/cxp/fonts/Means-Medium-Web.4a025173.1.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: Means Web;
+    src: url(/release/plums/cxp/fonts/Means-MediumItalic-Web.2755a66a.1.woff2) format("woff"),url(/release/plums/cxp/fonts/Means-MediumItalic-Web.952bdb09.1.woff) format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: Graphik Web;
+    src: url(/release/plums/cxp/fonts/Graphik-Light-Web.6a7c53f1.1.eot);
+    src: url(/release/plums/cxp/fonts/Graphik-Light-Web.6a7c53f1.1.eot?#iefix) format("embedded-opentype"),url(/release/plums/cxp/fonts/Graphik-Light-Web.0b54523d.1.woff2) format("woff"),url(/release/plums/cxp/fonts/Graphik-Light-Web.9ad2c663.1.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: Graphik Web;
+    src: url(/release/plums/cxp/fonts/Graphik-LightItalic-Web.c60d0043.1.eot);
+    src: url(/release/plums/cxp/fonts/Graphik-LightItalic-Web.c60d0043.1.eot?#iefix) format("embedded-opentype"),url(/release/plums/cxp/fonts/Graphik-LightItalic-Web.fd32efb2.1.woff2) format("woff"),url(/release/plums/cxp/fonts/Graphik-LightItalic-Web.0eefd738.1.woff) format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: Graphik Web;
+    src: url(/release/plums/cxp/fonts/Graphik-Regular-Web.e5afc5f9.1.eot);
+    src: url(/release/plums/cxp/fonts/Graphik-Regular-Web.e5afc5f9.1.eot?#iefix) format("embedded-opentype"),url(/release/plums/cxp/fonts/Graphik-Regular-Web.11b60cc4.1.woff2) format("woff"),url(/release/plums/cxp/fonts/Graphik-Regular-Web.9679fdfa.1.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: Graphik Web;
+    src: url(/release/plums/cxp/fonts/Graphik-RegularItalic-Web.72e39697.1.eot);
+    src: url(/release/plums/cxp/fonts/Graphik-RegularItalic-Web.72e39697.1.eot?#iefix) format("embedded-opentype"),url(/release/plums/cxp/fonts/Graphik-RegularItalic-Web.938f7e9b.1.woff2) format("woff"),url(/release/plums/cxp/fonts/Graphik-RegularItalic-Web.1525fec5.1.woff) format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: Graphik Web;
+    src: url(/release/plums/cxp/fonts/Graphik-Medium-Web.f5fa5a17.1.eot);
+    src: url(/release/plums/cxp/fonts/Graphik-Medium-Web.f5fa5a17.1.eot?#iefix) format("embedded-opentype"),url(/release/plums/cxp/fonts/Graphik-Medium-Web.dcadfa4d.1.woff2) format("woff"),url(/release/plums/cxp/fonts/Graphik-Medium-Web.55b8d8ba.1.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: Graphik Web;
+    src: url(/release/plums/cxp/fonts/Graphik-MediumItalic-Web.d37c61c9.1.eot);
+    src: url(/release/plums/cxp/fonts/Graphik-MediumItalic-Web.d37c61c9.1.eot?#iefix) format("embedded-opentype"),url(/release/plums/cxp/fonts/Graphik-MediumItalic-Web.b82b5b7c.1.woff2) format("woff"),url(/release/plums/cxp/fonts/Graphik-MediumItalic-Web.b2af558e.1.woff) format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: Graphik Web;
+    src: url(/release/plums/cxp/fonts/Graphik-Semibold-Web.1b0e6ecc.1.eot);
+    src: url(/release/plums/cxp/fonts/Graphik-Semibold-Web.1b0e6ecc.1.eot?#iefix) format("embedded-opentype"),url(/release/plums/cxp/fonts/Graphik-Semibold-Web.1755daa6.1.woff2) format("woff"),url(/release/plums/cxp/fonts/Graphik-Semibold-Web.78e500d0.1.woff) format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: Graphik Web;
+    src: url(/release/plums/cxp/fonts/Graphik-SemiboldItalic-Web.f1b91ff9.1.eot);
+    src: url(/release/plums/cxp/fonts/Graphik-SemiboldItalic-Web.f1b91ff9.1.eot?#iefix) format("embedded-opentype"),url(/release/plums/cxp/fonts/Graphik-SemiboldItalic-Web.a2b5be63.1.woff2) format("woff"),url(/release/plums/cxp/fonts/Graphik-SemiboldItalic-Web.52dc001c.1.woff) format("woff");
+    font-weight: 600;
+    font-style: italic;
+    font-display: fallback
+}
+
+.home_top a {
+    color: white;
+    border-bottom-style: dashed;
+    text-decoration: none;
+}
+
+.home_top p {
+    font-size: 13.5px;
+    font-weight: 500;
+    line-height: 17.55px;
+}
+
