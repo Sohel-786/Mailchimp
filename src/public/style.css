@@ -151,3 +151,104 @@ body {
     line-height: 17.55px;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+header>div:nth-child(1){
+    width: 48%;
+}
+
+header nav {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    border: 1px solid black;
+}
+
+header nav li {
+    list-style: none;
+    padding: 12px;
+    font-size: 13.3157px;
+    font-weight: 550;
+}
+
+header div img[alt='logo'] {
+    width: 105px;
+}
+
+header>div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    border: 1px solid black;
+
+}
+
+header>div:nth-child(2) a{
+    text-decoration: none;
+}
+
+header>div:nth-child(2) a p{
+    text-align: right;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19.5px;
+}
+
+header>div:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border: 1px solid black;
+}
+
+header>div:nth-child(3) img{
+    width: 25px;
+}
+
+/* CSS */
+.button-74 {
+  background-color: #fbeee0;
+  border: 1.5px solid #422800;
+  border-radius: 30px;
+  
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: box-shadow 0.1s, position 0.2s;
+}
+
+.button-74:hover {
+  background-color: #fff;
+  box-shadow: #422800 0px 5px 0 0;
+  position: relative;
+  top: -2px;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
