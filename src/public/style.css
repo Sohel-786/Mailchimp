@@ -164,16 +164,16 @@ header>div:nth-child(1){
 
 header nav {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
-    border: 1px solid black;
 }
 
 header nav li {
     list-style: none;
-    padding: 12px 16px;
+    padding: 12px 18px;
     font-size: 13.3157px;
     font-weight: 550;
+    cursor: pointer;
+
 }
 
 header div img[alt='logo'] {
@@ -185,8 +185,7 @@ header>div:nth-child(2){
     justify-content: space-between;
     align-items: center;
     width: 30%;
-    border: 1px solid black;
-
+    padding-right: 35px;
 }
 
 header>div:nth-child(2) a{
@@ -203,15 +202,17 @@ header>div:nth-child(2) a p{
 
 header>div:nth-child(3){
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
     align-items: center;
-    width: 30%;
+    width: 28%;
     padding: 0px 15px;
-    border: 1px solid black;
+
 }
 
 header>div:nth-child(3) img{
     width: 23px;
+    cursor: pointer;
 }
 
 /* CSS */
@@ -229,6 +230,8 @@ header>div:nth-child(3) img{
   text-decoration: none;
   touch-action: manipulation;
   transition: box-shadow 0.2s;
+  cursor: pointer;
+
 }
 
 .button-74:hover {
@@ -270,4 +273,42 @@ header>div:nth-child(3) img{
 
 .bgc{
     background-color: rgb(255, 224, 27);
+}
+
+.ads{
+    width: 100%;
+    padding: 50px;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ads h1{
+    color: rgb(36, 28, 21);
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size : 42.7067px;
+    font-variant-ligatures: none;
+    font-weight: 500;
+    height: 42.7083px;
+    letter-spacing: -1px;
+    line-height :42.7067px;
+}
+
+.ads p{
+    color :rgb(36, 28, 21);
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size :24px;
+    font-weight: 400;
+    height: 95.9896px;
+    letter-spacing: -0.32px;
+    line-height: 32px;
+    margin-block-start :16px;
+    margin-top :16px;
+}
+
+.ads button{
+    margin-top: 40px;
 }
