@@ -231,14 +231,32 @@ header>div:nth-child(3) img{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  transition: box-shadow 0.1s, position 0.2s;
+  transition: box-shadow 0.1s;
 }
 
 .button-74:hover {
   background-color: #fff;
   box-shadow: #422800 0px 5px 0 0;
   position: relative;
-  top: -2px;
+  animation: btn 0.2s 0s linear forwards;
+}
+
+@keyframes btn{
+    0%{
+        top:-1px;   
+    }
+    25%{
+        top:-2px;   
+    }
+    50%{
+        top:-3px;   
+    }
+    75%{
+        top:-4px;   
+    }
+    100%{
+        top:-5px;   
+    }
 }
 
 .button-74:active {
