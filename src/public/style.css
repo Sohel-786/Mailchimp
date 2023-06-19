@@ -155,11 +155,11 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 30px;
+    padding: 15px 30px;
 }
 
 header>div:nth-child(1){
-    width: 48%;
+    width: 44%;
 }
 
 header nav {
@@ -171,7 +171,7 @@ header nav {
 
 header nav li {
     list-style: none;
-    padding: 12px;
+    padding: 12px 16px;
     font-size: 13.3157px;
     font-weight: 550;
 }
@@ -197,34 +197,34 @@ header>div:nth-child(2) a p{
     text-align: right;
     color: black;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 19.5px;
 }
 
 header>div:nth-child(3){
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    width: 40%;
+    width: 30%;
+    padding: 0px 15px;
     border: 1px solid black;
 }
 
 header>div:nth-child(3) img{
-    width: 25px;
+    width: 23px;
 }
 
 /* CSS */
 .button-74 {
-  background-color: #fbeee0;
-  border: 1.5px solid #422800;
-  border-radius: 30px;
+  background-color: white;
+  border: 1.2px solid #422800;
+  border-radius: 25px;
   color: #422800;
   cursor: pointer;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 13px;
-  padding: 12px 24px;
-  /* line-height: 50px; */
+  padding: 13px 24px;
   text-align: center;
   text-decoration: none;
   touch-action: manipulation;
@@ -232,7 +232,6 @@ header>div:nth-child(3) img{
 }
 
 .button-74:hover {
-  background-color: #fff;
   position: relative;
   animation: btn 0.3s 0s linear forwards;
 }
@@ -267,4 +266,8 @@ header>div:nth-child(3) img{
 .button-74:active {
   box-shadow: #422800 2px 2px 0 0;
   transform: translate(2px, 2px);
+}
+
+.bgc{
+    background-color: rgb(255, 224, 27);
 }
