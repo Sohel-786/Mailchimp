@@ -393,9 +393,6 @@ header>div:nth-child(3) img{
 .cards>div:nth-child(3){
     background-color :rgb(253, 248, 234);
 }
-.cards>div:nth-child(4){
-    
-}
 
 .cards>div>div p{
     display :block;
@@ -419,9 +416,9 @@ header>div:nth-child(3) img{
     height: 151.481px;
     justify-content: space-between;
     line-height: 28px;
-    padding: 16px;
     align-items: flex-start;
     height: 29.5%;
+    padding: 16px;
 }
 
 .cards>div{
@@ -430,4 +427,61 @@ header>div:nth-child(3) img{
 
 .cards>div>div:nth-child(1){
     height: 70.5%;
+    padding: 16px;
+}
+
+.cards>div>div:nth-child(1) p{
+    color :rgb(36, 28, 21);
+    cursor :pointer;
+    font-family :"Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size :26.6917px;
+    font-weight: 500;
+    font-variant-ligatures: none;
+    height :0.9954px;
+    letter-spacing: normal;
+    line-height: 35.5889px;
+}
+
+.cards>div>div:nth-child(1) a{
+    text-decoration: none;
+}
+
+.cards>div>div:nth-child(1):hover{
+    text-decoration: underline black;
+}
+
+.cards>div>div:nth-child(1):hover{
+    cursor: pointer;
+}
+
+.cards>div:nth-child(1)>div:nth-child(1){
+    background: url('https://eep.io/images/yzco4xsimv0y/33f3mgIWbzKjIpIRJi2f5v/6bd36bba38b7f6a94d587605ab9a7d75/Desktop_Feature_Cards_1_Automations.jpeg?w=1260&fm=webp&q=70');
+    background-position: center;
+    background-size: 100% 100%;
+    transition: background-size .3s ease;
+}
+
+.cards>div:nth-child(2)>div:nth-child(1){
+    background: url('https://eep.io/images/yzco4xsimv0y/4s3qFNXy6GRaIPogjmSrVz/a1064b57d8607998b69101644637f845/Desktop_Feature_Cards_2_Analytics.png?w=1260&fm=webp&q=70');
+    background-position: center;
+    background-size: 100% 100%;
+    transition: background-size .3s ease;
+}
+
+.cards>div:nth-child(3)>div:nth-child(1){
+    background: url('https://eep.io/images/yzco4xsimv0y/5xqzo6y8Z7anw9VQXJarpj/5f91182af7bf16ecc34b487a619d0a54/Desktop_Feature_Cards_3_Segmentation.jpeg?w=1260&fm=webp&q=70');
+    background-position: center;
+    background-size: 100% 100%;
+    transition: background-size .3s ease;
+}
+
+.cards>div:nth-child(4)>div:nth-child(1){
+    background: url('https://eep.io/images/yzco4xsimv0y/lsHRpmOI81ZcFS1Yld0Bs/1e2812587cd0f3089061bd4b513fd6d0/Desktop_Feature_Cards_4_Integrations.png?w=1260&fm=webp&q=70');
+    background-position: center;
+    background-size: 100% 100%;
+    transition: background-size .3s ease;
+}
+
+.cards>div>div:nth-child(1):hover{
+    background-size: 106% 106%;
 }
