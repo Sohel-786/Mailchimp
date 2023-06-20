@@ -156,6 +156,8 @@ header{
     justify-content: center;
     align-items: center;
     padding: 15px 30px;
+    position: fixed;
+    width: 100%;
 }
 
 header>div:nth-child(1){
@@ -224,9 +226,9 @@ header>div:nth-child(3) img{
 /* CSS */
 .button-74 {
   background-color: white;
-  border: 1.2px solid #422800;
+  border: 1.2px solid rgb(36, 28, 21);
   border-radius: 25px;
-  color: #422800;
+  color :rgb(36, 28, 21);
   cursor: pointer;
   display: inline-block;
   font-weight: 500;
@@ -284,7 +286,7 @@ header>div:nth-child(3) img{
 .ads{
     width: 100%;
     padding: 50px;
-    margin: 30px 0px;
+    margin: 100px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -295,9 +297,9 @@ header>div:nth-child(3) img{
 .ads h1{
     color: rgb(36, 28, 21);
     font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
-    font-size : 42.7067px;
+    font-size : 42px;
     font-variant-ligatures: none;
-    font-weight: 500;
+    font-weight: 550;
     height: 42.7083px;
     letter-spacing: -1px;
     line-height :42.7067px;
@@ -306,7 +308,7 @@ header>div:nth-child(3) img{
 .ads p{
     color :rgb(36, 28, 21);
     font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
-    font-size :24px;
+    font-size :25px;
     font-weight: 400;
     height: 95.9896px;
     letter-spacing: -0.32px;
@@ -322,8 +324,43 @@ header>div:nth-child(3) img{
 .fb_sign {
     padding: 12px 10px;
     transform: rotate(-90deg);
-    position: absolute;
+    position: fixed;
     top: 300px;
     right: -20px;
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
 }   
+
+.chat{
+    background-color:#241c15;
+    color: white;
+    padding: 0px 13px;
+    display: flex;
+    align-items: center;
+    box-shadow: #0000001f 0px 4px 20px 4px;
+    border-radius: 42px;
+    font-family :Arial;
+    font-size: 15.5px;
+    font-weight :700;
+    font-stretch :100%;
+    height: 43.9988px;
+    justify-content :flex-start;
+    column-gap :8px;
+    row-gap :8px;
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    height: 43.9988px;
+    cursor: pointer;
+}
+
+.chat_icon{
+    height: 22px;
+    width: 22px;
+    padding: 0;
+    top: -1px;
+    cursor: pointer;
+}
 
