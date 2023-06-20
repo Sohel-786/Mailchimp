@@ -192,6 +192,12 @@ header>div:nth-child(2) a{
     text-decoration: none;
 }
 
+
+header>div:nth-child(2) a:hover, header>div:nth-child(2) p:hover, header nav li:hover{
+    color: rgb(0, 124, 137);
+    text-decoration:underline;
+}
+
 header>div:nth-child(2) a p{
     text-align: right;
     color: black;
@@ -236,7 +242,7 @@ header>div:nth-child(3) img{
 
 .button-74:hover {
   position: relative;
-  animation: btn 0.3s 0s linear forwards;
+  animation: btn 0.2s 0s linear forwards;
 }
 
 @keyframes btn{
@@ -312,3 +318,12 @@ header>div:nth-child(3) img{
 .ads button{
     margin-top: 40px;
 }
+
+.fb_sign {
+    padding: 12px 10px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 300px;
+    right: -20px;
+}   
+
