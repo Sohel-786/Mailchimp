@@ -485,3 +485,31 @@ header>div:nth-child(3) img{
 .cards>div>div:nth-child(1):hover{
     background-size: 106% 106%;
 }
+
+.offer_ad{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.offer_ad h1{
+    color :rgb(36, 28, 21);
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size :35.5889px;
+    font-variant-ligatures :none;
+    font-weight: 400;
+    height: 35.5903px;
+    letter-spacing: -0.5px;
+    line-height :35.5889px;
+}
+
+.offer_ad span{
+    text-decoration: underline;
+    text-decoration-color: #ffe01b;
+    text-decoration-thickness: 8px;
+    text-underline-offset: 6px;
+}
