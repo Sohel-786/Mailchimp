@@ -486,9 +486,22 @@ header>div:nth-child(3) img{
     background-size: 106% 106%;
 }
 
+.offer_box{
+    padding: 80px 0px;
+    background-color :rgb(246, 246, 244);
+    color :rgb(0, 0, 0);
+    display: block;
+    font-family :"Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size :16px;
+    height :1007.59px;
+    line-height :21.6px;
+    scroll-margin-top :124px;
+    text-size-adjust :100%;
+}
+
 .offer_ad{
     width: 100%;
-    margin-top: 100px;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -496,9 +509,8 @@ header>div:nth-child(3) img{
     text-align: center;
 }
 
-.offer_ad h1{
+.offer_ad h1, .offer_ad p{
     color :rgb(36, 28, 21);
-    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
     font-size :35.5889px;
     font-variant-ligatures :none;
     font-weight: 400;
@@ -512,4 +524,17 @@ header>div:nth-child(3) img{
     text-decoration-color: #ffe01b;
     text-decoration-thickness: 8px;
     text-underline-offset: 6px;
+}
+
+.offer_ad p {
+    
+    font-family :"Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size :16px;
+    font-variant-ligatures :none;
+    font-weight :400;
+    height :16.0012px;
+    letter-spacing: -0.5px;
+    line-height :16px;
+    margin-bottom: 16px;
+    text-size-adjust :100%;
 }
