@@ -497,6 +497,7 @@ header>div:nth-child(3) img{
     line-height :21.6px;
     scroll-margin-top :124px;
     text-size-adjust :100%;
+   
 }
 
 .offer_ad{
@@ -540,13 +541,15 @@ header>div:nth-child(3) img{
 }
 
 .plan_holder{
-    display: grid;
-    grid-template-columns: repeat(4,263.165px);
-    
+    margin: 0px 58.484px;
+    margin-top: 80px;
+    display: flex;
 }
 
 .plan_holder>div{
     border: 0.740741px solid  #bcbab8;
+    border-right: 0.2px solid  #bcbab8;
+    border-left: 0.2px solid  #bcbab8;
     color: rgb(0, 0, 0);
     font-family :"Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
     font-size: 16px;
@@ -555,4 +558,178 @@ header>div:nth-child(3) img{
     padding-bottom: 14px;
     cursor: pointer;
     background-color: white;
+    width: 263.165px;
+}
+
+.plan_holder>div:nth-child(1){
+    border-left: 0.740741px solid  #bcbab8;
+}
+.plan_holder>div:nth-child(4){
+    border-right:0.740741px solid  #bcbab8;
+}
+
+.title{
+    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.desc{
+    margin-top:8px ;
+    margin-bottom: 10px;
+    color :rgba(36, 28, 21, 0.65);
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size :13px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    height :48.9988px;
+    line-height: 16.25px;
+    text-size-adjust: 100%;
+}
+
+.plan_desc{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 16px;
+    justify-content: center;
+    line-height: 21.6px;
+    margin-bottom: 8px;
+    text-size-adjust: 100%;
+}
+
+.plan_desc p{
+    color: rgb(36, 28, 21);
+    font-size :13px;
+    font-weight: 400;
+    height :16.2442px;
+    line-height: 16.25px;
+}
+
+.plan_desc>div:nth-child(1){
+    color :rgb(36, 28, 21);
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 26.6917px;
+    font-variant-ligatures: none;
+    font-weight: 400;
+    height :35.9954px;
+    letter-spacing: normal;
+    line-height :36px;
+}
+
+s{
+    color: rgba(36, 28, 21, 0.65);
+    display :inline;
+    font-size :24px;
+    font-variant-ligatures :none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight :500;
+    height: auto;
+    letter-spacing :normal;
+    line-height :36px;
+    padding-right: 2.5px;
+    text-decoration-color: rgba(36, 28, 21, 0.65);
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    text-decoration-thickness: 1px;
+}
+
+.check{
+    color :rgb(36, 28, 21);
+    display :flex;
+    flex-wrap: nowrap;
+    font-variant-ligatures :none;
+    justify-content: flex-start;
+    padding: 8.1px 0px;
+}
+
+.check h1{
+    font-size :34px;
+    font-weight: 400;
+    height: 23.7963px;
+    letter-spacing: -1px;
+    line-height: 23.8px;
+}
+
+.check>div:nth-child(1) {
+    font-size :12px;
+    padding-right: 2px;
+}
+
+.check>div:nth-child(3) p{
+    font-size: 18px;
+}
+
+.check+p{
+    font-size: 13.8px;
+}
+
+.plan_holder ul{
+    margin-top: 20px;
+}
+
+.plan_holder ul li{
+    align-items: center;
+    border-bottom-color: rgb(219, 217, 210);
+    border-bottom-style :solid;
+    border-bottom-width :0.740741px;
+    display: flex;
+    align-content: center;
+    flex-wrap :wrap;
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size :13px;
+    line-height :20px;
+    list-style-image :none;
+    list-style-position: outside;
+    list-style-type :none;
+    padding: 30px 0px;
+    padding-left: 30px;
+    position :relative;
+    text-align :left;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 0.9px ;
+    text-underline-offset: 3px;
+    }
+
+    .plan_holder ul li.checkmark::before {
+        content: ""; 
+        position: absolute; 
+        left: 5.2px; 
+        top: 18.5px; 
+        width: 5px;
+        height: 14px;
+        border: solid black;
+        border-width: 0 2.5px 2.5px 0;
+        transform: rotate(45deg);
+      }
+
+.plan_holder ul li.cross::before {
+  content: "";
+  position: absolute;
+  height: 21px;
+  border-left: 2.5px solid rgba(36, 28, 21, 0.3);
+  transform: rotate(45deg);
+  left: 5.2px; 
+  top: 20px;  
+}
+
+.plan_holder ul li.cross::after {
+  content: "";
+  position: absolute;
+  height: 21px;
+  border-left: 2.5px solid rgba(36, 28, 21, 0.3);
+  transform: rotate(-45deg);
+  left: 5.2px; 
+  top: 20px; 
+}
+
+#blur{
+    color: rgba(36, 28, 21, 0.3);
+    text-decoration: none;
+    font-size: 14px;
 }
