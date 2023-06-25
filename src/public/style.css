@@ -538,3 +538,21 @@ header>div:nth-child(3) img{
     margin-bottom: 16px;
     text-size-adjust :100%;
 }
+
+.plan_holder{
+    display: grid;
+    grid-template-columns: repeat(4,263.165px);
+    
+}
+
+.plan_holder>div{
+    border: 0.740741px solid  #bcbab8;
+    color: rgb(0, 0, 0);
+    font-family :"Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 21.6px;
+    padding: 24px;
+    padding-bottom: 14px;
+    cursor: pointer;
+    background-color: white;
+}

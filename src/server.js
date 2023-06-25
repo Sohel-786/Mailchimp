@@ -15,3 +15,6 @@ app.use('/home', homepageController);
 app.listen(2345, async(req, res)=>{
     console.log('Listening on port 2345');
 })
+
+
+console.log(path.resolve());
