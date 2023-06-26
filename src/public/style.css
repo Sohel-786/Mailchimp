@@ -19,6 +19,7 @@ body {
     padding: 14px;
     position: sticky;
     top: 0;
+    z-index: 15;
 }
 
 @font-face {
@@ -161,7 +162,7 @@ header{
     position: fixed;
     width: 100%;
     background-color: #fff;
-    z-index: 5;
+    z-index: 15;
 }
 
 header>div:nth-child(1){
@@ -359,6 +360,7 @@ header>div:nth-child(3) img{
     bottom: 24px;
     height: 43.9988px;
     cursor: pointer;
+    z-index: 11;
 }
 
 .chat_icon{
@@ -556,10 +558,7 @@ header>div:nth-child(3) img{
     cursor: pointer;
     background-color: white;
     width: 263.165px;
-}
-
-.plan_holder>div:hover{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    z-index: 1;
 }
 
 .plan_holder>div:nth-child(1){
@@ -568,6 +567,38 @@ header>div:nth-child(3) img{
 .plan_holder>div:nth-child(4){
     border-right:0.740741px solid  #bcbab8;
 }
+
+.plan_holder>div:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 12px 0px;
+    z-index: 5;
+}
+
+.plan_holder>div:nth-child(2):hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 2px 0px, rgba(14, 30, 37, 0.32) 0px 2px 12px 0px;
+}
+
+.rec{
+    background-color :rgb(197, 219, 242);
+    border: 0.740741px solid rgb(188, 186, 184);
+    border-bottom: 0px;
+    color :rgb(36, 28, 21);
+    font-family :"Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size :13px;
+    font-weight: 400;
+    left :-24px;
+    line-height: 20px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top :-38px;
+    padding: 8px 0px;
+    position :relative;
+    right:0px;
+    text-align: center;
+    text-size-adjust :100%;
+    top :-23.7px;
+    width :264px;
+    box-shadow: inherit;
+}   
 
 .title{
     font-family: Means Web,Georgia,Times,Times New Roman,serif;
@@ -913,4 +944,81 @@ s{
         -ms-transform: none;
         transform: none
     }
+}
+
+.start_btn {
+    background-attachment: scroll;
+    background-clip :border-box;
+    background-color :rgba(0, 0, 0, 0);
+    background-image :none;
+    background-origin :padding-box;
+    background-position-x :0%;
+    background-position-y :0%;
+    background-repeat-x :repeat;
+    background-repeat-y :repeat;
+    background-size :auto;
+    border-bottom-color :rgb(36, 28, 21);
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source :none;
+    border-image-width :1;
+    border-left-color :rgb(36, 28, 21);
+    border-right-color :rgb(36, 28, 21);
+    border-right-style :none;
+    border-top-color :rgb(36, 28, 21);
+    border-radius: 32px;
+    border-top-style :none;
+    border-top-width :0px;
+    color: rgb(36, 28, 21);
+    cursor: pointer;
+    display :inline-block;
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height :31.9965px;
+    line-height: 32px;
+    position :relative;
+    text-align :left;
+    text-decoration-color: rgb(36, 28, 21);
+    text-decoration-line :none;
+    text-decoration-style :solid;
+    text-decoration-thickness :auto;
+    transform :matrix(1, 0, 0, 1, 4, 0);
+    transition-delay :0s, 0s, 0s;
+    transition-duration :0.15s, 0.3s, 0.3s;
+    transition-property: color, transform, -webkit-transform;
+    transition-timing-function: ease-in-out, ease, ease;
+    vertical-align: baseline;
+    padding-right: 40px;
+}
+
+
+.start_btn:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: calc(100% - 2rem);
+    border-radius: 1rem;
+    height: 2rem;
+    z-index: -1;
+    background-image: url('https://mailchimp.com/release/plums/cxp/images/p23/icon-arrow-right.93179a3d.1.svg');
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 0.4375rem);
+    background-position-y: calc(100% - 0.4375rem);
+    background-size: 1.125rem;
+    background-color: #ffe01b;
+    transition: left .3s cubic-bezier(.34,1.2,.64,1),right .3s ease,background-position .3s ease;
+}
+
+.btn_sta{
+    color :rgb(36, 28, 21);
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size :16px;
+    line-height: 21.6px;
+    margin-right :87.7199px;
+    max-width :83.3333%;
+    text-align :left;
+    text-size-adjust :100%;
 }
