@@ -1121,3 +1121,61 @@ s{
 .integration .btn_sta{
     margin-left: 50px;
 }
+
+
+.dive_in{
+    background-color: rgb(251, 238, 202);
+    padding: 80px 0px;
+    color :rgb(36, 28, 21);
+    text-align :center;
+
+}
+
+.dive_in h2{
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size :35.5889px;
+    font-weight: 550;
+    letter-spacing: -0.5px;
+    line-height :35.5889px;
+}
+
+.dive_in p{
+    font-family :"Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 32px;
+    text-size-adjust: 100%;
+    margin-top: 16px;
+}
+
+.dive_in button{
+    margin-top: 40px;
+}
+
+.disclaimers{
+    background-color: rgb(239, 238, 234);
+    padding: 40px 0px;
+}
+
+.disclaimers div{
+    margin: 0px 58.4838px;
+    font-size: 11.5px;
+    line-height: 16px;
+}
+
+.disclaimers p strong{
+    color :rgb(36, 28, 21);
+    display :inline;
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    text-size-adjust: 100%;
+}
+
+.disclaimers ul li{
+    letter-spacing: 0.16px;
+}
+
+.disclaimers span{
+    text-decoration: underline;
+    text-decoration-thickness: 0.9px;
+}
