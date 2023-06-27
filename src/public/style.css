@@ -1029,7 +1029,6 @@ s{
 
 .integration{
     color: rgb(0, 0, 0);
-    height :628.837px;
     padding-bottom :80px;
     scroll-margin-top: 124px;
     text-size-adjust :100%;
@@ -1066,6 +1065,7 @@ s{
     margin-top :40px;
     max-width :1280px;
     width :1052.66px;
+    padding-bottom: 40px;
 }
 
 .integration>div:nth-child(2)>div{
@@ -1080,6 +1080,10 @@ s{
 .integration>div:nth-child(2)>div:hover{
     background: rgba(36,28,21,.05);
     cursor: pointer;
+}
+
+.integration>div:nth-child(2)>div:focus-within {
+    outline: 0.125rem solid #4bc4c2;
 }
 
 .int_img{
@@ -1112,4 +1116,8 @@ s{
     padding-top :4px;
     text-align :start;
     text-size-adjust :100%;
+}
+
+.integration .btn_sta{
+    margin-left: 50px;
 }
