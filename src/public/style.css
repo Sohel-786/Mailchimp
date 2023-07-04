@@ -1179,3 +1179,16 @@ s{
     text-decoration: underline;
     text-decoration-thickness: 0.9px;
 }
+
+footer {
+        background-color :rgb(231, 183, 95);
+        padding: 60px 0px;
+        scroll-margin-top: 124px;
+}
+
+.footer_1{
+    display: flex;
+    margin: 0px 58.4838px;
+    padding: 0px 30px;
+}
+
