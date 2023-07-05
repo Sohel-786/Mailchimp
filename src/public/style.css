@@ -1192,3 +1192,6 @@ footer {
     padding: 0px 30px;
 }
 
+.footer_1>div:nth-child(1){
+    margin: 0px 10px;
+}
