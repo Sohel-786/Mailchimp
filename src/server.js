@@ -11,6 +11,7 @@ app.set('view engine', 'ejs');
 
 const homepageController = require('./controllers/homepage.controller');
 app.use('/home', homepageController);
+app.use('/home/login', homepageController)
 
 app.listen(2345, async(req, res)=>{
     console.log('Listening on port 2345');

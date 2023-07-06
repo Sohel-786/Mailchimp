@@ -1311,6 +1311,7 @@ footer hr{
     height: 21.5972px;
     margin: 0px 12px;
     list-style: none;
+    cursor: pointer;
 }
 
 .footer_2 > div:nth-child(2) ul li img{
@@ -1355,6 +1356,7 @@ footer hr{
 
 .footer_2 > div:nth-child(4) > div:nth-child(1){
     padding: 10px;
+    padding-left: 5px;
     border: 1px solid black;
     width :118.889px;
     cursor: pointer;
