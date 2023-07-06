@@ -1260,3 +1260,66 @@ footer {
 .footer_1>div:last-child>div:nth-child(1){
     margin-bottom:70px;
 }
+
+footer hr{
+    border-color: rgba(36, 28, 21, 0.3);
+    border: 0.370px solid;
+    border-top: none;
+    margin: 60px 0px;
+}
+
+.footer_2{
+    margin: 0px 58.484px;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.footer_2>div:nth-child(1){
+    margin: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 280px;
+    height :38.5532px;
+    padding-right: 20.255px;
+}
+
+.footer_2 > div:nth-child(1) > div{
+    height: 33.9931px;
+    width: 114.745px;
+}
+
+.footer_2 > div:nth-child(1) > div img, .footer_2 > div:nth-child(3) img{
+    height: 100%;
+    width: 100%;
+}
+
+.footer_2 > div:nth-child(2){
+    margin: 0px 10px;
+}
+
+.footer_2 > div:nth-child(2) ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_2 > div:nth-child(2) ul li{
+    height: 21.5972px;
+    margin: 0px 12px;
+    list-style: none;
+}
+
+.footer_2 > div:nth-child(2) ul li img{
+    height: 16.9965px;
+    width: 17.9977px;
+}
+
+.footer_2 > div:nth-child(3){
+    margin: 0px 10px;
+    height: 44.5544px;
+    width: 101.997px;
+}
