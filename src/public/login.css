@@ -48,3 +48,17 @@ header>div:nth-child(2)>div select:focus{
     outline: none;
     border: none;
 }
+
+.fb_sign {
+    padding: 10px;
+    transform: rotate(-90deg);
+    position: fixed;
+    top: 300px;
+    border-radius:38px;
+    right: -20px;
+    border: none;
+    font-size: 12.8px;
+    font-weight: 500;
+    cursor: pointer;
+    font-stretch: 100%;
+}   
