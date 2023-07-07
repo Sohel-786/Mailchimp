@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    border-left: 7.778px solid rgb(255, 224, 27);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header>div:nth-child(1) img{
+    width :37.9977px;
+    height: 35px;
+    margin: 12px;
+}
+
+header>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>div:nth-child(2)>div{
+    padding: 10px;
+    padding-left: 12.5px;
+    cursor: pointer;
+}
+
+header>div:nth-child(2)>div select{
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    color :rgb(0, 124, 137);
+    font-weight: 600;
+    padding-right:15px;
+    padding-left: 7px;
+    cursor: pointer;
+}
+
+
+header>div:nth-child(2)>div select:focus{
+    outline: none;
+    border: none;
+}
