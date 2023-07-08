@@ -74,5 +74,97 @@ header>div:nth-child(2)>div select:focus{
     color :rgb(36, 28, 21);
     width :503.999px;
     padding: 60px;
-        
+    border: 1px solid black;
+
+}
+
+form{
+    width: 100%;
+}
+
+form>div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+form>div>div:nth-child(2):hover{
+    color: #004e56;
+}
+
+form>div>div:nth-child(2){
+    color: #007c89;
+    cursor: pointer;
+    display: flex;
+}
+
+form input {
+    width: 100%;
+}
+
+input[type=checkbox]{
+    cursor: pointer;
+}
+
+.check_box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.login{
+    background-color: #007c89;
+    border-radius: 38px;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    line-height: 46px;
+    font-size: 16px;
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    color:white;
+    font-weight: 500;
+    padding: 0px 42px;
+    border: 0.741px solid transparent;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: #006570;
+}
+
+.login:hover{
+    background-color: #006570;
+}
+
+.login:active{
+    background-color: #004e56;   
+}
+
+.login:focus{
+    border: 1px solid #004e56;
+    box-shadow: inset 0 0 0 1px #004e56, inset 0 0 0 2px #ffffff;
+    transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+}
+
+.forgot{
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.forgot p, .forgot+div>p{
+    margin: 0px 6px;
+}
+
+.forgot p > a, .forgot+div p>a{
+    color: #007c89;
+    border-bottom: 0.740741px solid rgb(0, 78, 86);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family :"Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.forgot a:hover{
+    color: #004e56;
 }

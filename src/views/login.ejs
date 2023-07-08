@@ -6,6 +6,7 @@
     <title>Login | Mailchimp</title>
     <link rel="shortcut icon" href="/static/assets/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="/static/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -36,11 +37,37 @@
 
                 </div>
                 <form action="" method="Get">
-                    <label for="username">Username or Email</label>
+                    <label for="username">Username or Email</label><br>
                     <input type="text" name="username" id="username"><br>
 
-                    <label for="password">Password</label>
+                    <div>
+                         <div>
+                             <label for="password">Password</label>
+                         </div>
+
+                         <div>
+                            <i class="fa fa-eye"></i>
+                            <p class="password_show">Show</p>
+                         </div>
+                    </div>
+
+                    <input type="password" id="password" name="password">
+
                 </form>
+
+                <label for="stay_signed_in" class="check_box">
+                    <input type="checkbox" id="stay_signed_in">
+                    Keep me logged in
+                </label>
+
+                <button class="login">Log in</button>
+
+                <div class="forgot">
+                    <div><p><a href="#">Forgot username?</a></p></div>
+                    <div><p><a href="#">Forgot password?</a></p></div>
+                </div>
+                
+                <div><p><a href="#">Can't log in?</a></p></div>
         </div>
     </section>
 </body>
