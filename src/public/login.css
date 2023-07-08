@@ -62,3 +62,17 @@ header>div:nth-child(2)>div select:focus{
     cursor: pointer;
     font-stretch: 100%;
 }   
+
+.main {
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.main>div{
+    margin: 0px 328.924px;
+    margin-top: 21px;
+    color :rgb(36, 28, 21);
+    width :503.999px;
+    padding: 60px;
+        
+}
