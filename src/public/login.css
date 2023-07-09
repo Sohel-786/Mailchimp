@@ -6,6 +6,7 @@
 
 body{
     border-left: 7.778px solid rgb(255, 224, 27);
+    background-color: rgb(246, 246, 244);
 }
 
 header{
@@ -74,8 +75,9 @@ header>div:nth-child(2)>div select:focus{
     color :rgb(36, 28, 21);
     width :503.999px;
     padding: 60px;
-    border: 1px solid black;
-
+    border: 0.741px solid rgba(36, 28, 21, 0.15);
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
 }
 
 form{
@@ -121,7 +123,7 @@ form input {
     font-family :"Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
     font-size: 17px;
     line-height: 20px;
-    padding:15px;
+    padding: 12px 15px;
     
 }
 
@@ -193,7 +195,7 @@ input[type=checkbox]{
 .forgot{
     display: flex;
     align-items: center;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
 }
 
 .forgot p, .forgot+div>p{
@@ -207,8 +209,67 @@ input[type=checkbox]{
     font-size: 16px;
     font-weight: 400;
     font-family :"Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    line-height: 24px;
+    letter-spacing: 0.2px;
 }
 
 .forgot a:hover{
     color: #004e56;
+}
+
+.main>div>div:nth-child(1){
+    margin-bottom: 30px;
+
+}
+
+.main>div>div:nth-child(1) p{
+    color :rgb(36, 28, 21);
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 16.3px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 12px;
+    letter-spacing: 0.3px;
+}
+
+.main>div>div:nth-child(1) a{
+    color: #007c89;
+    text-decoration: none;
+    border-bottom: 0.741px solid #007c89;
+}
+
+.main>div>div:nth-child(1) a:hover{
+    color: #004e56;
+    border-bottom: 0.741px solid #004e56;
+}
+
+.main>div>div:nth-child(1) h1{
+    margin-bottom: 18px;
+    color: rgb(36, 28, 21);
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 44px;
+    line-height: 48.4px;
+    font-weight: 550;
+}
+
+footer{
+    padding-bottom:12px;
+}
+
+footer p{
+    color: rgba(36, 28, 21, 0.65);
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px 15px;
+}
+
+footer span{
+    border-bottom: 1px solid rgba(36, 28, 21, 0.65);
+}
+
+footer span:hover{
+    color: #004e56;
+    border-bottom: 1px solid  #004e56;
+    cursor: pointer;
 }
